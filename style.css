@@ -1,0 +1,47 @@
+body {
+    background-color: #EDE8E3;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    height: 100vh;
+}
+aside {
+    height: 100%;
+}
+.bg {
+    background-color: #003566;
+}
+.tx {
+    color: #EDE8E3;
+}
+.tx1 {
+    color: #FFD91A;
+}
+ul li a {
+    text-decoration: none;
+    color: #EDE8E3;
+    
+}
+ul li {
+    margin-bottom: 10px;
+}
+.a1 {
+    flex-direction: column;
+}
+.main-content {
+    background-color: #003566;
+}
+.content {
+    max-height: 900px;
+    height: 100%;
+    width: 100%;
+    background-color: #EDE8E3;
+    overflow: scroll;
+}
+.content::-webkit-scrollbar {
+    display: none;
+}
+.card{
+    height: 100vh;
+}
